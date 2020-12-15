@@ -1,11 +1,30 @@
-function fib(n){
+"use strict";
+
+function oldFib(n){
     if(n<2){
         return n;
     }
-    return fib(n-1)+fib(n-2);
+    return oldFib(n-1)+oldFib(n-2);
 }
 
+function fib(n){
+    return fibImpl(0,1,n);
+}
+
+function fibImpl(a,b,n){
+    if(n===0){
+        return a;
+    }
+    return fibImpl(b,a+b,n-1);
+}
+let testData=30;//30分水岭
+
 let start=new Date();
-fib(1000);
+console.log(fib(testData));
 let end=new Date();
+console.log(end-start);
+
+start=new Date();
+console.log(oldFib(testData));
+end=new Date();
 console.log(end-start);
