@@ -1,0 +1,21 @@
+let modules=require('./LinkedList');
+
+// const list=new modules.LinkedList();
+// const list=new modules.DoublyLinkedList();
+const list=new modules.CircularLinkedList();
+list.push(15);
+list.push(10);
+console.log(list.toString());
+list.removeAt(0);
+console.log(list.toString());
+list.push(34);
+list.push(55);
+console.log(list.toString());
+list.remove(34);
+list.remove(44);
+console.log(list.toString());
+list.insert(4,0);
+list.insert(5,1);
+list.insert(60,4);
+console.log(list.toString());
+console.log(list.indexOf(55));
