@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+    <h2 class="page-header">Promise 尝试使用</h2>
+    <button class="btn btn-primary" id="btn">点击抽奖</button>
+</div>
+
+<script>
+    function random(m, n) {
+        return Math.ceil(Math.random() * (n - m + 1)) + m - 1;
+    }
+
+    const btn = document.querySelector('#btn');
+    btn.addEventListener('click', function () {
+        // setTimeout(()=>{
+        //     let n=random(1,100);
+        //     if(n<=30){
+        //         alert('恭喜')
+        //     }else{
+        //         alert('再接再厉')
+        //     }
+        // },2000);
+
+        const p = new Promise(((resolve, reject) => {
+            setTimeout(() => {
+                let n = random(1, 100);
+                if (n <= 30) {
+                    resolve(n);
+                } else {
+                    reject(n);
+                }
+            }, 2000);
+        }));
+
+        p.then((value) => {
+            alert(`恭喜${value}`);
+        }, (reason) => {
+            alert('再接再厉'+reason);
+        })
+    })
+</script>
+
+</body>
+</html>
