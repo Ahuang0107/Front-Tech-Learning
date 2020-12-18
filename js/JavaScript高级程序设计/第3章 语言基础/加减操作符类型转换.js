@@ -1,6 +1,6 @@
 "use strict";
 
-let o={};//new Objetc()
+let o={};//new Object()
 o['name']='hxh';
 o.age=22;
 console.log(o);

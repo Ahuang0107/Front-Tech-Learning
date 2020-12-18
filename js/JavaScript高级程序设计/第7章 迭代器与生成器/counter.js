@@ -23,6 +23,7 @@ class Counter {
 }
 
 let counter = new Counter(5);
+console.log(counter[Symbol.iterator]);
 console.log(counter[Symbol.iterator]());
 for (let i of counter) {
     if(i>2){
@@ -33,3 +34,7 @@ for (let i of counter) {
 // for (let i of counter) {
 //     console.log(i);
 // }
+let arr=['foo','bar','baz'];
+let iter=arr[Symbol.iterator]();
+console.log(iter[Symbol.iterator]);
+console.log(iter[Symbol.iterator]());
