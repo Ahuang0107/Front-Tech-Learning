@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // window.open('http://www.wrox.com/','topFrame');
+
+    let blocked = false;
+    try {
+        let wroxWin = window.open('http://www.wrox.com/', '_blank');
+        if (wroxWin == null) {
+            blocked = true;
+        }
+    } catch (ex) {
+        blocked = true;
+    } finally {
+        if (blocked) {
+            console.log('The popup was blocked!')
+        } else {
+            console.log('The popup was not blocked!')
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="h1">第一行<br>大标题</br></h1>
+<h2>第一行小标题</h2>
+<p>第一行文字</p>
+<h2>第二行小标题</h2>
+<p>第二行文字</p>
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+</ul>
+<img src="https://img.zcool.cn/community/017ea25fe3716811013ee04d0e5aa7.png@1280w_1l_2o_100sh.png" alt=""/>
+<img src="https://img.zcool.cn/community/01dd945fe3716811013ee04d0de392.png@1280w_1l_2o_100sh.png" alt=""/>
+<img src="https://img.zcool.cn/community/01e5705fe3718711013ee04d95f29a.png@1280w_1l_2o_100sh.png" alt=""/>
+<script>
+    console.log(document);
+    console.log(document.nodeType);
+    console.log(document.nodeName);
+    console.log(document.nodeValue);
+    console.log(Array.from(document.childNodes));
+    let h1 = document.querySelector('#h1');
+    console.log(Array.from(h1.childNodes));
+    let myList = document.querySelector('ul');
+    console.log(myList.childNodes);
+    let deepList = myList.cloneNode(true);
+    console.log(deepList.childNodes);
+    let shallowList = myList.cloneNode(false);
+    console.log(shallowList.childNodes);
+    let images=document.getElementsByTagName('img');
+    console.log(images[1].src);
+</script>
+</body>
+</html>

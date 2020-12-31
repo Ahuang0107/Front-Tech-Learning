@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="id1">location.hash</button>
+<button id="id2">location.replace</button>
+<button id="id3">location.reload</button>
+<script>
+    let button1 = window.document.querySelector('#id1');
+    let button2 = window.document.querySelector('#id2');
+    let button3 = window.document.querySelector('#id3');
+    button1.addEventListener('click', () => location.hash = '#section1');
+    button2.addEventListener('click', () => location.replace('http://www.wrox.com/'));
+    button3.addEventListener('click', () => location.reload(true));
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // console.log(window.moveTo(200, 300));//chrome禁用
+    console.log(`窗口相对于屏幕左侧和顶部的位置：(${screenTop},${screenLeft})`);
+    const pageSize = {
+        outerWidth: window.outerWidth,
+        outerHeight: window.outerHeight,
+        innerWidth: window.innerWidth,
+        innerHeight: window.innerHeight,
+    };
+    if (typeof pageSize.innerWidth != 'number') {
+        console.log("pageSize.innerWidth!='number'");
+        if (document.compatMode === "CSS1Compat") {
+            pageSize.innerWidth = document.documentElement.clientWidth;
+            pageSize.innerHeight = document.documentElement.clientHeight;
+        } else {
+            pageSize.innerWidth = document.body.clientWidth;
+            pageSize.innerHeight = document.body.clientHeight;
+        }
+    }
+    console.log(pageSize);
+    // console.log(window.resizeTo(100,100));//chrome禁用
+    console.log(`视口位置：(${window.pageXOffset},${window.pageYOffset})`);
+
+</script>
+</body>
+</html>
