@@ -1,0 +1,24 @@
+{
+  "name": "jslearning",
+  "version": "1.0.0",
+  "description": "基于JavaScript高级程序设计第四版的学习笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahuang0107/JSLearning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahuang0107/JSLearning/issues"
+  },
+  "homepage": "https://github.com/Ahuang0107/JSLearning#readme",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "inquirer": "^7.3.3",
+    "progress": "^2.0.3"
+  }
+}
