@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function handleResponse(response) {
+        alert(`
+    You're at IP address ${response.ip}, which is in
+    ${response.city}, ${response.region}`);
+    }
+    let script = document.createElement('script');
+    script.src = 'http://localhost:3000/users/JSONP?callback=handleResponse';
+    document.body.insertBefore(script, document.body.firstChild);
+</script>
+</body>
+</html>
