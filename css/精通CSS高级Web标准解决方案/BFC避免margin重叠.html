@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BFC避免margin重叠</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        color: #f55;
+        background: yellow;
+        width: 200px;
+        line-height: 100px;
+        text-align:center;
+        margin: 30px;
+    }
+    div{
+        /*overflow指定为visible（默认值）以外的值将创建一个新的块级上下文*/
+        overflow: hidden;
+    }
+</style>
+<body>
+<p>看看我的 margin是多少</p>
+<p>看看我的 margin是多少</p>
+<div>
+    <p>看看我的 margin是多少</p>
+</div>
+<p>看看我的 margin是多少</p>
+</body>
+</html>
