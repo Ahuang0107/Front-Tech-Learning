@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动盒子-格式化上下文-媒体对象</title>
+</head>
+<style>
+    .media-block {
+        background-color: gray;
+        border: solid 1px black;
+    }
+
+    .media-fig {
+        float: left;
+        width: 30%;
+    }
+
+    .media-block .media-body {
+        overflow: auto;
+    }
+</style>
+<body>
+<div class="media-block">
+    <img src="./static/icon-256.png" alt="The pic" class="media-fig">
+    <div class="media-body">
+        <h3>Title of this</h3>
+        <p>Brief description of this</p>
+    </div>
+    <div style="clear: both"></div>
+</div>
+</body>
+</html>
