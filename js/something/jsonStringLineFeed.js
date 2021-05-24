@@ -1,0 +1,361 @@
+const json = [{
+    "primaryKey": "9470797c-7cfb-4d6b-bd3c-18c10860b9de",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "ca650a6d-91c0-4c3a-bedf-1efc7d3f7c28",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 700,
+        "height": 91,
+        "x": 20,
+        "y": 10,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "60077213-79ce-4eea-8c8c-6101a393d4cd",
+        "type": "FOLDER",
+        "name": "文件夹",
+        "width": 700,
+        "height": 91,
+        "x": 20,
+        "y": 10,
+        "subItem": [{
+            "primaryKey": "ca53c183-1060-4dd7-9a96-08122f4bf764",
+            "type": "GENERAL_TITLE",
+            "name": "通用标题",
+            "width": 471,
+            "height": 50,
+            "x": 110,
+            "y": 30,
+            "subItem": null,
+            "generalTitle": {"content": "区域经济检测数据大屏", "fontFamily": "微软雅黑", "fontSize": 42},
+            "digitalCardFlipper": null
+        }, {
+            "primaryKey": "c00ea9c7-d25f-4616-bcab-84994aae9af3",
+            "type": "SINGLE_IMAGE",
+            "name": "单张图片",
+            "width": 75,
+            "height": 75,
+            "x": 30,
+            "y": 18,
+            "subItem": null,
+            "generalTitle": null,
+            "digitalCardFlipper": null
+        }],
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "a630ffdc-6212-4c28-ab68-57ce78235a0d",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "2eaf0604-e69e-4b68-ae7a-83d937b9deac",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 200,
+        "height": 91,
+        "x": 800,
+        "y": 10,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "d21f2597-4038-4c56-bd01-04e389b5beb1",
+        "type": "DIGITAL_CARD_FLIPPER",
+        "name": "数字翻牌器",
+        "width": 100,
+        "height": 70,
+        "x": 880,
+        "y": 20,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": {
+            "content": "2984.10",
+            "size": 16,
+            "title": {"content": "第一季度", "top": true},
+            "prefix": null,
+            "suffix": {"content": "万"}
+        }
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "e487cbbf-0cf4-4187-bcd2-3bdf290c51ea",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "3ba284e9-b10f-419c-ae59-4909f20f882c",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 200,
+        "height": 91,
+        "x": 1050,
+        "y": 10,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "15a647b0-0215-4a8f-89d4-306636920a1a",
+        "type": "DIGITAL_CARD_FLIPPER",
+        "name": "数字翻牌器",
+        "width": 100,
+        "height": 70,
+        "x": 1130,
+        "y": 20,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": {
+            "content": "2330.56",
+            "size": 20,
+            "title": {"content": "第二季度", "top": true},
+            "prefix": null,
+            "suffix": {"content": "万"}
+        }
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "97930bc7-ee7c-4206-b62d-5454c55a891c",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "723a3878-9106-4422-9905-b2753f26cbdf",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 200,
+        "height": 91,
+        "x": 1300,
+        "y": 10,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "5a7db49b-7898-4ebd-943a-ccf722cb7521",
+        "type": "DIGITAL_CARD_FLIPPER",
+        "name": "数字翻牌器",
+        "width": 100,
+        "height": 70,
+        "x": 1380,
+        "y": 20,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": {
+            "content": "2278.42",
+            "size": 24,
+            "title": {"content": "第三季度", "top": false},
+            "prefix": null,
+            "suffix": {"content": "万"}
+        }
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "5aaff28e-038e-4812-8760-37ac788d0ad3",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "10cf2d03-0b07-4220-b33b-377817741bd5",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 200,
+        "height": 91,
+        "x": 1550,
+        "y": 10,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "7c52dcff-4896-4636-8aa5-bbe5ab2db606",
+        "type": "DIGITAL_CARD_FLIPPER",
+        "name": "数字翻牌器",
+        "width": 100,
+        "height": 70,
+        "x": 1630,
+        "y": 20,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": {
+            "content": "1920.78",
+            "size": 28,
+            "title": {"content": "第四季度", "top": true},
+            "prefix": null,
+            "suffix": {"content": "万"}
+        }
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "c3800696-3e47-4e07-b5f5-cfcaf4c98cc2",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "95c4bd57-865b-4d79-ad62-fa2127e89f43",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 410,
+        "height": 310,
+        "x": 20,
+        "y": 120,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "82e1752f-b2e8-4a10-a158-7c7733d26f86",
+        "type": "BAR_WITH_BACKGROUND",
+        "name": "折线柱图",
+        "width": 400,
+        "height": 300,
+        "x": 25,
+        "y": 125,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "f11c290b-dac0-4373-bb1c-57ebbbc55702",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "72b68f85-58e7-4391-b5ce-f23141cde64d",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 410,
+        "height": 310,
+        "x": 20,
+        "y": 450,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "53bcceab-54fa-43c6-9197-13af67bc1e9e",
+        "type": "MULTIPLE_X_AXES",
+        "name": "折线图",
+        "width": 400,
+        "height": 300,
+        "x": 25,
+        "y": 455,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "54ed2768-84bb-4ed2-b3e3-6336491e45b9",
+    "type": "BUS_LINE",
+    "name": "香港18区人口密度图",
+    "width": 800,
+    "height": 800,
+    "x": 475,
+    "y": 120,
+    "subItem": null,
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "a25272b5-aa1a-40a7-a97f-8260e31b3498",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "35cfcd69-3891-4712-8183-acc42797556a",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 410,
+        "height": 310,
+        "x": 1343,
+        "y": 120,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "4356c5c8-cac9-40b1-880e-c3e790e8b3c0",
+        "type": "DOUGHNUT_CHART_WITH_ROUNDED_CORNER",
+        "name": "饼图",
+        "width": 400,
+        "height": 300,
+        "x": 1343,
+        "y": 135,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}, {
+    "primaryKey": "3b7e1af8-b95e-4896-b67d-8a09ae01ff9f",
+    "type": "FOLDER",
+    "name": "文件夹",
+    "width": 700,
+    "height": 91,
+    "x": 20,
+    "y": 10,
+    "subItem": [{
+        "primaryKey": "064f0f56-f2cd-44a4-aecb-194f60087a78",
+        "type": "COLOR_BLOCK",
+        "name": "色块图",
+        "width": 410,
+        "height": 310,
+        "x": 1343,
+        "y": 450,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }, {
+        "primaryKey": "8310c293-8bb3-4213-9c43-b394817013f8",
+        "type": "BUBBLE_CHART",
+        "name": "气泡图",
+        "width": 400,
+        "height": 300,
+        "x": 1350,
+        "y": 480,
+        "subItem": null,
+        "generalTitle": null,
+        "digitalCardFlipper": null
+    }],
+    "generalTitle": null,
+    "digitalCardFlipper": null
+}]
+
+function f(jsonString) {
+    return jsonString.replace(/,/g, ",\n").replace(/{/g, "{\n").replace(/}/g, "\n}").replace(/\[/g, "[\n").replace(/\]/g, "\n]")
+}
+
+console.log(f(JSON.stringify(json)))
