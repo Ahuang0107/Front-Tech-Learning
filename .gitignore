@@ -16,5 +16,3 @@ _book
 *.pdf
 
 /.idea/
-package-lock.json
-yarn.lock
