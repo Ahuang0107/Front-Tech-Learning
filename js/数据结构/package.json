@@ -1,0 +1,14 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "elase huang",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}
