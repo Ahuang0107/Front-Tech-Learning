@@ -5,10 +5,14 @@
   "author": "elase huang",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "mocha"
   },
   "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
     "typescript": "^4.2.4"
   }
 }
