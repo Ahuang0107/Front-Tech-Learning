@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prompt</title>
+</head>
+<body>
+<script>
+    class User {
+        name = prompt("Name, please?", "John")
+
+        sayHi() {
+            console.log(this.name)
+        }
+    }
+
+    let user = new User()
+    user.sayHi()
+</script>
+</body>
+</html>

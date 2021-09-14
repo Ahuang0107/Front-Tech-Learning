@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>constructor</title>
+</head>
+<body>
+<script>
+    class Button {
+        _className = "Button"
+
+        constructor(value) {
+            this.value = value
+        }
+
+        get className() {
+            return this._className
+        }
+
+        set className(value) {
+            this._className = value
+        }
+
+        click() {
+            console.log(this.value)
+        }
+    }
+
+    console.log(Button)
+    console.log(Button.prototype)
+
+    let button = new Button()
+    console.log(button)
+    button.className="new Button"
+    console.log(button.className)
+</script>
+</body>
+</html>
